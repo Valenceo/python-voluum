@@ -11,7 +11,7 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name="python-voluum",
+    name="voluum",
     version="0.0.1.dev1",
     author="Mateusz Sikora",
     author_email="sikora2048@gmail.com",
